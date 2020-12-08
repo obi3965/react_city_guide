@@ -1,0 +1,48 @@
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+     url('https://images.pexels.com/photos/5707613/pexels-photo-5707613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-items{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%, -10%);
+}
+.banner-items h1{
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(205, 97, 51);
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: capitalize;
+    /* text-shadow: 0 3px 0 rgba(205, 97, 51, 0.1); */
+}
+.banner-items p{
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.banner-items a{
+    background-color: rgb(205, 97, 51);
+    width: 180px;
+    padding: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 18px;
+    outline: none;
+}
+.banner-items a:hover{
+    opacity: .85;
+    transition: all ease 400ms;
+   
+    color: #fff;
+}

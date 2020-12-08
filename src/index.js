@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { InfoProvider } from './components/Context'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <>
+  <InfoProvider>
     <App />
-  </React.StrictMode>,
+    </InfoProvider>
+  </>,
   document.getElementById('root')
 );
 
